@@ -1,0 +1,38 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  color: white !important;
+  margin-bottom: 10px;
+}
+
+.hero-section h3 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.feature-card {
+  text-align: center;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
